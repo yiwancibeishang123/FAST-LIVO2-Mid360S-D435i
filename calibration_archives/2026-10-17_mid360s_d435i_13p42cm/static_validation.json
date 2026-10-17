@@ -1,0 +1,35 @@
+{
+  "duration_logged_s": 27.091173,
+  "state_records": 1077,
+  "paired_lio_vio_records": 538,
+  "visible_vio_position_corrections_over_1um": 313,
+  "visible_correction_fraction": 0.5817843866171004,
+  "visible_correction_time_range_s": [
+    0.626717,
+    27.2512
+  ],
+  "position_span_m": [
+    0.04990773,
+    0.0925234,
+    0.24865339999999997
+  ],
+  "net_displacement_m": 0.024281068215893944,
+  "lio_segment_point_count_median": 104.0,
+  "baseline_m": 0.1341952988000692,
+  "exit_code": -11,
+  "sigint_preceded_exit": true,
+  "limitations": [
+    "Text-log precision can hide small VIO corrections; the correction fraction is not a feature inlier ratio.",
+    "Point counts describe processing segments, not full scans.",
+    "The earlier run used a different scene/motion; this is not a controlled calibration ablation.",
+    "No ground truth, mapping point cloud or full console feature counts were available."
+  ],
+  "user_confirmed_stationary": true,
+  "max_position_deviation_from_start_m": 0.18620403211242237,
+  "recorded_euler_peak_to_peak_deg": [
+    4.12336,
+    8.825890000000001,
+    2.069233
+  ],
+  "assessment": "Visual updates are present, but this stationary run shows substantial pose fluctuation and does not pass static stability acceptance."
+}

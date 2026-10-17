@@ -1,0 +1,124 @@
+{
+  "input_root": "local_session/bags_points_01",
+  "source_files": {
+    "bags_points_01/pose_01/metadata.yaml": {
+      "bytes": 2458,
+      "mtime_ns": 1792222434799861432
+    },
+    "bags_points_01/pose_01/pose_01_0.db3": {
+      "bytes": 612487168,
+      "mtime_ns": 1792222434798861428
+    },
+    "bags_points_01/pose_02/metadata.yaml": {
+      "bytes": 2458,
+      "mtime_ns": 1792222455054476973
+    },
+    "bags_points_01/pose_02/pose_02_0.db3": {
+      "bytes": 611225600,
+      "mtime_ns": 1792222455054476973
+    },
+    "bags_points_01/pose_03/metadata.yaml": {
+      "bytes": 2458,
+      "mtime_ns": 1792222476751026318
+    },
+    "bags_points_01/pose_03/pose_03_0.db3": {
+      "bytes": 611573760,
+      "mtime_ns": 1792222476750026338
+    },
+    "bags_points_01/pose_04/metadata.yaml": {
+      "bytes": 2458,
+      "mtime_ns": 1792222498712591426
+    },
+    "bags_points_01/pose_04/pose_04_0.db3": {
+      "bytes": 611213312,
+      "mtime_ns": 1792222498711591445
+    },
+    "bags_points_01/pose_05/metadata.yaml": {
+      "bytes": 2458,
+      "mtime_ns": 1792222520247184905
+    },
+    "bags_points_01/pose_05/pose_05_0.db3": {
+      "bytes": 610369536,
+      "mtime_ns": 1792222520247184905
+    }
+  },
+  "solver_image_id": "sha256:f7363cc3deadc2419f3527a7b9ec7bdabaa3031fd8e1b9c6cc46666ae1301bbb",
+  "completed_at": "2026-10-17T15:35:47.865501+08:00",
+  "original_bag_conversion_manifests": [
+    {
+      "source": "bags/pose_01",
+      "source_lidar_type": "livox_ros_driver2/msg/CustomMsg",
+      "message_counts": {
+        "/livox/imu": 3949,
+        "/livox/lidar": 198,
+        "/camera/camera/color/image_raw": 593,
+        "/camera/camera/color/camera_info": 592
+      },
+      "source_sha256": {
+        "metadata.yaml": "55e678d4fcb552c72d4801e553cc79560a355736ca5125da11c9ebcbdc9c0c93",
+        "pose_01_0.db3": "69b234b033ed441a5761a083283ef6ee864ab0244343793370ca84e1039170c9"
+      },
+      "conversion": "Static calibration XYZ/intensity only; header and bag timestamps preserved"
+    },
+    {
+      "source": "bags/pose_02",
+      "source_lidar_type": "livox_ros_driver2/msg/CustomMsg",
+      "message_counts": {
+        "/livox/imu": 3947,
+        "/camera/camera/color/image_raw": 592,
+        "/camera/camera/color/camera_info": 591,
+        "/livox/lidar": 197
+      },
+      "source_sha256": {
+        "metadata.yaml": "a874a1b742773a51afff284a5505b53fbd84a9f15e70f53abbd88b371e15c6cc",
+        "pose_02_0.db3": "8f1ebf21faca43058c387991da7464c124e3eb6617b63f5551c2afa611f10b29"
+      },
+      "conversion": "Static calibration XYZ/intensity only; header and bag timestamps preserved"
+    },
+    {
+      "source": "bags/pose_03",
+      "source_lidar_type": "livox_ros_driver2/msg/CustomMsg",
+      "message_counts": {
+        "/livox/imu": 3949,
+        "/camera/camera/color/camera_info": 592,
+        "/camera/camera/color/image_raw": 592,
+        "/livox/lidar": 198
+      },
+      "source_sha256": {
+        "metadata.yaml": "32978b448b599a76defd52ad9f49edc1a591227ba7e7eda9c9966997b69445e3",
+        "pose_03_0.db3": "df5ac73d99551d49092c3c09a565c4e3709f3a859a04976c58036efae5c26198"
+      },
+      "conversion": "Static calibration XYZ/intensity only; header and bag timestamps preserved"
+    },
+    {
+      "source": "bags/pose_04",
+      "source_lidar_type": "livox_ros_driver2/msg/CustomMsg",
+      "message_counts": {
+        "/livox/imu": 3945,
+        "/camera/camera/color/camera_info": 592,
+        "/camera/camera/color/image_raw": 592,
+        "/livox/lidar": 197
+      },
+      "source_sha256": {
+        "metadata.yaml": "6c4c60e870e9205f03ed151b191a3af54eaa5c98d84aafc4a1093c1e1a447dcb",
+        "pose_04_0.db3": "648317169e536ba5fe8c08f7ad69224b31c355f1e1f49f9a6a37de75526b4b60"
+      },
+      "conversion": "Static calibration XYZ/intensity only; header and bag timestamps preserved"
+    },
+    {
+      "source": "bags/pose_05",
+      "source_lidar_type": "livox_ros_driver2/msg/CustomMsg",
+      "message_counts": {
+        "/livox/imu": 3940,
+        "/camera/camera/color/camera_info": 591,
+        "/camera/camera/color/image_raw": 591,
+        "/livox/lidar": 197
+      },
+      "source_sha256": {
+        "metadata.yaml": "6e322fb561c3784a3457c0e55d4661c1a8bf60130fac54d81ec093ae8029287b",
+        "pose_05_0.db3": "f4e21156b89d5dd18d45e42dee9b144fb5681ad457b266959c941ca3e49b296f"
+      },
+      "conversion": "Static calibration XYZ/intensity only; header and bag timestamps preserved"
+    }
+  ]
+}

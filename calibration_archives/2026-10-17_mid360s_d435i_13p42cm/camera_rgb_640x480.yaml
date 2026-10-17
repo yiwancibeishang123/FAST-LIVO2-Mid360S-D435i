@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    camera:
+      model: Pinhole
+      width: 640
+      height: 480
+      scale: 1.0
+      # /camera/camera/color/camera_info, D435i serial 261722072542,
+      # RGB 640x480@30, verified 2026-10-02.
+      fx: 608.1622314453125
+      fy: 607.0413208007812
+      cx: 323.26031494140625
+      cy: 251.73831176757812
+      d0: 0.0
+      d1: 0.0
+      d2: 0.0
+      d3: 0.0

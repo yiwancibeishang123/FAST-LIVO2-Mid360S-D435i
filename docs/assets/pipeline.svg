@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="FAST-LIVO2 Mid-360S D435i reproduction workspace">
+<defs><linearGradient id="g"><stop stop-color="#102438"/><stop offset="1" stop-color="#133e48"/></linearGradient></defs>
+<rect width="1200" height="310" rx="22" fill="url(#g)"/>
+<circle cx="1090" cy="80" r="125" fill="#34d399" opacity=".08"/>
+<g fill="#4fd1c5" opacity=".7"><circle cx="1005" cy="71" r="3"/><circle cx="1070" cy="140" r="4"/><circle cx="1140" cy="122" r="3"/><circle cx="1030" cy="194" r="3"/><circle cx="1110" cy="220" r="4"/><circle cx="1163" cy="175" r="3"/></g>
+<text x="54" y="57" font-family="sans-serif" font-size="17" fill="#69e5d6" letter-spacing="3">REPRODUCE · CALIBRATE · VALIDATE</text>
+<text x="50" y="122" font-family="sans-serif" font-weight="700" font-size="52" fill="#f0f7fc">FAST-LIVO2</text>
+<text x="54" y="166" font-family="sans-serif" font-size="27" fill="#c7dce8">Mid-360S + D435i / ROS 2 Humble</text>
+<g font-family="sans-serif" font-size="16" fill="#e7f5fb"><rect x="54" y="206" width="206" height="43" rx="9" fill="#244b60"/><text x="78" y="233">01  Sensor calibration</text><text x="275" y="233" fill="#6de6d2">→</text><rect x="310" y="206" width="232" height="43" rx="9" fill="#244b60"/><text x="330" y="233">02  Visual-inertial fusion</text><text x="557" y="233" fill="#6de6d2">→</text><rect x="592" y="206" width="217" height="43" rx="9" fill="#244b60"/><text x="614" y="233">03  Evidence &amp; checks</text></g>
+<text x="55" y="284" font-family="sans-serif" font-size="14" fill="#a6c1d2">Calibration candidate: 13.4195 cm · Static stability validation pending</text></svg>

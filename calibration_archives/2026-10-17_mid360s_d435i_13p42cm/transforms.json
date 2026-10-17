@@ -1,0 +1,72 @@
+{
+  "archived_on": "2026-10-17",
+  "rig_session": "rigid_mount_01",
+  "camera_serial": "261722072542",
+  "rgb_profile": "640x480x30",
+  "units": "metres",
+  "quaternion_order": "xyzw",
+  "baseline_m": 0.1341952988000692,
+  "rough_mechanical_baseline_m": 0.13,
+  "T_lidar_camera": [
+    [
+      -0.9998509426486769,
+      -0.01707124829555405,
+      0.002581659579366612,
+      0.05388161926906978
+    ],
+    [
+      0.0005254032245704601,
+      -0.1795435331008208,
+      -0.9837498887792191,
+      -0.111222433772993
+    ],
+    [
+      0.01725735889421679,
+      -0.9836018972141656,
+      0.17952574010623149,
+      0.05229454608843112
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_camera_lidar": [
+    [
+      -0.9998509426486769,
+      0.0005254032245704596,
+      0.01725735889421679,
+      0.05302955869290722
+    ],
+    [
+      -0.01707124829555405,
+      -0.17954353310082077,
+      -0.9836018972141656,
+      0.03238757252796806
+    ],
+    [
+      0.002581659579366612,
+      -0.9837498887792192,
+      0.17952574010623157,
+      -0.11894237794251876
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "convention_lidar_camera": "p_lidar = R_lc @ p_camera_optical + t_lc",
+  "convention_fastlivo2": "p_camera_optical = Rcl @ p_lidar + Pcl",
+  "status": "candidate; static stability not accepted; projection and dynamic validation pending",
+  "limitations": [
+    "Rough baseline agreement is not a calibration accuracy measurement.",
+    "Factory RGB intrinsics were used; no independent intrinsic accuracy validation.",
+    "No RGB/LiDAR time-offset calibration.",
+    "LiDAR/IMU extrinsics are reference values, not independently calibrated here.",
+    "Raw bags and scene images are local and not distributed."
+  ]
+}

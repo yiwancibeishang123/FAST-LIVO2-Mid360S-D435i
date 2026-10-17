@@ -1,0 +1,22 @@
+{
+  "source_upstream": "https://github.com/DeepRoboticsLab/fast-livo2-deep-robotics",
+  "source_branch": "soft-sync",
+  "source_commit": "b036f700f14a0dee30b5a81a4a8d81b66f5e5851",
+  "publication": "source snapshot plus local changes; independent GitHub history",
+  "omitted_upstream_large_attachments": [
+    "images/poster.pdf",
+    "images/plant_real.png",
+    "src/FAST-LIVO2/Supplementary/LIVO2_supplementary.pdf"
+  ],
+  "omitted_attachment_location": "Use original upstream commit paths; not required for building or running.",
+  "local_only": [
+    "calibration_data/",
+    "build/",
+    "install/",
+    "log/",
+    "raw bags",
+    "X11 authorization",
+    "generated point clouds"
+  ],
+  "limitations": "Candidate calibration. Static pose stability has not passed acceptance."
+}
